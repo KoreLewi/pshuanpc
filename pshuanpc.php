@@ -81,6 +81,6 @@ class Pshuanpc extends Module
 
     public function hookDisplayFooter()
     {
-        /* Place your code here. */
+        return $this->display(__FILE__, 'views/templates/front/_footer.tpl');
     }
 }
