@@ -27,7 +27,7 @@ class Pshuanpc extends Module
     {
         $this->name = 'pshuanpc';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'PrestaHU';
         $this->need_instance = 0;
 
