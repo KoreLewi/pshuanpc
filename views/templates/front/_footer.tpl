@@ -1,3 +1,21 @@
+{*
+ * PrestaHU
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Commercial License
+ * you can't distribute, modify or sell this code
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file
+ * If you need help please contact info@presta.hu
+ *
+ * @author    PrestaHU <info@presta.hu>
+ * @copyright PrestaHU
+ * @license   free
+*}
+
 <div class="row pshuanpc">
     <div class="col-lg-12">
         <a href="https://anpc.ro/ce-este-sal/" target="_blank">
