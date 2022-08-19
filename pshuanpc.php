@@ -68,11 +68,14 @@ class Pshuanpc extends Module
      */
     public function hookHeader()
     {
-        $this->context->controller->addCSS($this->_path.'/views/css/front.css');
+        $this->context->controller->addCSS($this->_path . '/views/css/front.css');
     }
 
     public function hookDisplayFooter()
     {
+        if (!$this->active) {
+            return;
+        }
         $this->context->smarty->assign([
             'anpc_sal' => Media::getMediaPath(_PS_MODULE_DIR_ . $this->name . '/views/img/anpc-sal.png'),
             'anpc_sol' => Media::getMediaPath(_PS_MODULE_DIR_ . $this->name . '/views/img/anpc-sol.png'),
